@@ -14,9 +14,9 @@
         }
     ],
     "require": {
-        "php": ">=5.3.3",
-        "goalio/goalio-rememberme": "1.*",
-        "doctrine/doctrine-orm-module": "0.*"
+        "php": "^7.2",
+        "goalio/goalio-rememberme": "dev-patch-1",
+        "doctrine/doctrine-orm-module": "~2.1.7"
     },
     "autoload": {
         "psr-0": {
@@ -25,5 +25,12 @@
         "classmap": [
             "./Module.php"
         ]
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/samsonasik/GoalioRememberMe",
+            "no-api": true
+        }
+    ]
 }
