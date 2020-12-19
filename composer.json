@@ -15,7 +15,7 @@
     ],
     "require": {
         "php": "^7.2",
-        "goalio/goalio-rememberme": "dev-patch-1",
+        "goalio/goalio-rememberme": "dev-master",
         "doctrine/doctrine-orm-module": "~2.1.7"
     },
     "autoload": {
@@ -29,7 +29,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/samsonasik/GoalioRememberMe",
+            "url": "https://github.com/dillchuk/GoalioRememberMe",
             "no-api": true
         }
     ]
